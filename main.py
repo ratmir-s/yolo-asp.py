@@ -1,21 +1,16 @@
 import clingo
 
+from yolov2 import get_yolo_output
+
+print(get_yolo_output())
+
+  # Import the function from yolo.py
 
 def get_neural_network_output():
-    label = 2
-    if label == 0:
-        color = "none"
-    elif label == 1:
-        color = "red"
-    elif label == 2:
-        color = "yellow"
-    elif label == 3:
-        color = "green"
-    return {
-        'light_color': color,  # or 'red', 'yellow'
-        'cars_detected': False,  # True if incoming cars are detected
-        'turn_signal_on': True  # True if left turn signal is detected
-    }
+    # Get YOLO detection results
+    yolo_output = get_yolo_output()  # Calls yolo.py function
+    return yolo_output
+
 
 
 def run_asp_solver(light_color, cars_detected, turn_signal_on):
