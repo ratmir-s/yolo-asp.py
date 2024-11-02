@@ -23,7 +23,7 @@ def run_asp_solver(light_color, cars_detected, turn_signal_on):
     asp_program = f"""
     go :- light(green), not carsIncoming.
     go :- light(green), turnSignalOn.
-
+    go :- light(yellow), not carsIncoming, turnSignalOn.
     :- light(red), go.
     :- light(yellow), carsIncoming, go.
     :- light(yellow), not turnSignalOn, go.
