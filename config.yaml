@@ -1,0 +1,8 @@
+path: 'C:\Users\aksha\OneDrive\Documents\Computer_Vision\traffic_light_detection\data'
+train: 'images/train'
+val: 'images/val'
+names:
+    0: 'No color'
+    1: 'Red'
+    2: 'Yellow'
+    3: 'Green'
