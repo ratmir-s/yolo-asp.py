@@ -1,0 +1,26 @@
+<?xml version="1.0" ?><annotation verified="yes">
+	<folder>cam00</folder>
+	<filename>000206.jpg</filename>
+	<path>/home/zhaohuaqing/Documents/4_2/images/000206.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>631</xmin>
+			<ymin>160</ymin>
+			<xmax>654</xmax>
+			<ymax>213</ymax>
+		</bndbox>
+	</object>
+</annotation>
